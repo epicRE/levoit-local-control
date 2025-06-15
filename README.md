@@ -69,7 +69,7 @@ mqtt:
       entity_category: "config"
       device_class: "restart"
     - name: "display on"
-      unique_id: fan_lvl_disp_on__switch_btn
+      unique_id: fan_lvl_disp_on_switch_btn
       command_topic: "mqtt/[LEVOITID]/v2/bypass"
       payload_press: '{"traceId": "123456","method": "bypassV2","debugMode":false,"payload":{"data":{"state":true},"method":"setDisplay","source": "APP"}}'
       qos: 0
