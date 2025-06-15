@@ -121,6 +121,11 @@ Get timer
 {"traceId": "123456","method": "bypassV2","debugMode":false,"payload":{"data":{},"method":"getTimer","source": "APP"}}
 ```
 
+Delete timer
+```json
+{"traceId": "123456","method": "bypassV2","debugMode":false,"payload":{"data":{"id":1},"method":"delTimer","source": "APP"}}
+```
+
 You should get a `rsp` from `getTimer` at `mqtt/[LEVOITID]/v2/bypass/rsp`
 ```json
 {"traceId":"123456","code":0,"result":{"timers":[{"id":1,"remain":1749,"total":1800,"action":"off"}]}}
