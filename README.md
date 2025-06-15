@@ -1,4 +1,4 @@
-# levoit-private-control
+# Levoit 200s Fan - Local Control
 If you have a Levoit 200s ([https://levoit.com/products/core-200s-smart-air-purifier](https://levoit.com/products/core-200s-smart-air-purifier)) there is a way to control it without any hardware modifications. 
 
 ## Configure Home Assistant to work with Levoit
