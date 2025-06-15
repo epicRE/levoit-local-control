@@ -1,5 +1,5 @@
 # levoit-private-control
-If you have a Levoit 200s there is a way to control it without any hardware modification. 
+If you have a Levoit 200s ([https://levoit.com/products/core-200s-smart-air-purifier](https://levoit.com/products/core-200s-smart-air-purifier)) there is a way to control it without any hardware modifications. 
 
 ## Configure Home Assistant to work with Levoit
 The Levoit makes use of a MQTT (`mqtt/[LEVOITID]/v2/`). All you need to do is setup a MQTT on port 1883 and add TLS support (self-signed is fine). 
