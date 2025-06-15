@@ -6,7 +6,8 @@ The Levoit makes use of a MQTT (`mqtt/[LEVOITID]/v2/`). All you need to do is se
 
 Setup a rewrite rule for the DNS values: 
 * vdmpmqtt.vesync.com pointing to your [YOUR_MQTT_SERVER] 
-* *.vesync.com 127.0.0.1
+* *.vesync.com point to 127.0.0.1
+* *.vesyncapi.com point to 127.0.0.1
 * Create/update your local DNS server or use something like AdGuard to rewrite DNS entries.
 * Setup your DHCP server to serve the IP address of your local DNS server to the Levoit device.
 * Setup the device using the official application, but what should happen is that the device will register on to your wifi, get redirected by your DNS server and then connect to your MQTT server.
